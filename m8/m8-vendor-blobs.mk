@@ -77,3 +77,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libnetmgr.so:/system/blobs/vzw/vendor/lib/libnetmgr.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qc-qmi-1.so:/system/blobs/vzw/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/m8/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk\
