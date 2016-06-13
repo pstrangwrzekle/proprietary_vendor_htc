@@ -23,21 +23,21 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/htc/dlx/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
-	vendor/htc/dlx/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
 	vendor/htc/dlx/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-	vendor/htc/dlx/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/htc/dlx/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+	vendor/htc/dlx/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
-	vendor/htc/dlx/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+	vendor/htc/dlx/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
 	vendor/htc/dlx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/htc/dlx/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+	vendor/htc/dlx/proprietary/lib/libwriteback.so:system/lib/libwriteback.so \
 	vendor/htc/dlx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/htc/dlx/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
 	vendor/htc/dlx/proprietary/lib/libchromatix_ov2722_hdr.so:system/lib/libchromatix_ov2722_hdr.so \
@@ -133,7 +134,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/dlx/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
 	vendor/htc/dlx/proprietary/lib/libchromatix_vd6869_default_video.so:system/lib/libchromatix_vd6869_default_video.so \
-	vendor/htc/dlx/proprietary/lib/libmmcamera_aec.so:system/lib/libmmcamera_aec.so \
 	vendor/htc/dlx/proprietary/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
 	vendor/htc/dlx/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
 	vendor/htc/dlx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
