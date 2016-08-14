@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/htc/m8-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/m8-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/htc/m8-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/htc/m8-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/htc/m8-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/m8-common/proprietary/bin/time_daemon:system/bin/time_daemon \
