@@ -147,6 +147,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsystem_health_mon.so:system/blobs/vzw/vendor/lib/libsystem_health_mon.so \
     vendor/htc/m8/KernelAdiutor/Kernel_Adiutor-Mod_V6.apk:system/app/KernelAdiutor/Kernel_Adiutor-Mod_V6.apk\
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libxml.so:system/blobs/vzw/vendor/lib/libxml.so
-
-PRODUCT_PACKAGES += \
-    libril
